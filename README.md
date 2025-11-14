@@ -30,6 +30,4 @@ Then press `w` to open in browser.
 
 4. Or open in Expo Go on your phone by scanning the QR code.
 
-## Notes
-- This is a UI-focused front-end; buttons show alerts by default. 
-- You can extend the FloatingButton to open modals or real screens.
+
