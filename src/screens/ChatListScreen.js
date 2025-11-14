@@ -6,13 +6,13 @@ import FloatingButton from '../components/FloatingButton';
 
 const DATA = [
   { id: '1', name: 'Faza Dzikrulloh', msg: 'Typing...', time: '14.30', unread: 0,image: require('../../assets/images/2.jpg') },
-  { id: '2', name: 'Hatypo Studio', msg: 'Faza Can you help me to do with new project...', time: '14.30', unread: 2 },
-  { id: '3', name: 'Zhofran A', msg: 'I think we should upgrade the social media...', time: '14.00', unread: 2 },
-  { id: '4', name: 'Vito Arvy', msg: 'Okay adhit, I\'ll tell faza about it 👍🏼', time: '13.40', unread: 0 },
-  { id: '5', name: 'Raul', msg: 'Thanks Raul!! 🙏✨', time: 'Yesterday', unread: 0 },
-  { id: '6', name: 'Farhan Bagas', msg: 'Great work farhan! 👏 I\'ll tell faza about logo...', time: '29/08/22', unread: 0 },
-  { id: '7', name: 'Abdull', msg: 'Perfecto!🔥 I will check it later', time: '28/08/22', unread: 0 },
-  { id: '8', name: 'Ibe hatypo', msg: 'nicely done bro!👍🏻', time: '', unread: 0 }
+  { id: '2', name: 'Hatypo Studio', msg: 'Faza Can you help me to do with new project...', time: '14.30', unread: 2 ,image: require('../../assets/images/3.jpg')},
+  { id: '3', name: 'Zhofran A', msg: 'I think we should upgrade the social media...', time: '14.00', unread: 2 ,image: require('../../assets/images/4.jpg')},
+  { id: '4', name: 'Vito Arvy', msg: 'Okay adhit, I\'ll tell faza about it 👍🏼', time: '13.40', unread: 0 ,image: require('../../assets/images/2.jpg')},
+  { id: '5', name: 'Raul', msg: 'Thanks Raul!! 🙏✨', time: 'Yesterday', unread: 0 ,image: require('../../assets/images/3.jpg')},
+  { id: '6', name: 'Farhan Bagas', msg: 'Great work farhan! 👏 I\'ll tell faza about logo...', time: '29/08/22', unread: 0,image: require('../../assets/images/5.jpg') },
+  { id: '7', name: 'Abdull', msg: 'Perfecto!🔥 I will check it later', time: '28/08/22', unread: 0 ,image: require('../../assets/images/3.jpg')},
+  { id: '8', name: 'Ibe hatypo', msg: 'nicely done bro!👍🏻', time: '', unread: 0 ,image: require('../../assets/images/5.jpg')}
 ];
 
 export default function ChatListScreen({ navigation }) {
