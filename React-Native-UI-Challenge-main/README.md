@@ -23,6 +23,4 @@ app/components/IconPlaceholder.tsx - Small icon box component
 Notes
 UI is responsive and uses Dimensions to adjust large numbers for small screens.
 
-All repeating code is componentized so it’s easy to reuse.
 
-No external icon libraries required — placeholders are used.
